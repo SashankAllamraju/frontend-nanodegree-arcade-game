@@ -28,3 +28,10 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 
 
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+## References
+---
+* [alexsales's game](https://github.com/alexsales/frontend-nanodegree-frogger-arcade-game)
+* [Will's Game](https://github.com/iamwill123/Frogger-Arcade-Game)
+* [Lei Zhu's Game](https://github.com/lei-clearsky/p3-arcade-game)
+* [Udacity JS Helper](https://github.com/udacity/frontend-nanodegree-arcade-game)
