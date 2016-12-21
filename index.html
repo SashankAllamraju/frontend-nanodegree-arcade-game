@@ -6,6 +6,40 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<header>
+		<!-- Before Game begins -->
+		<h1 id="game-title">Classic Arcade Game Clone: Frogger</h1>
+		<div id="game-rules">
+			<h2>Use the 'arrow' keys <img src="images/arrow-keys.png" alt="Keyboard Arrows">to move the player.</h2>
+			<h2>Grab these!!!</h2>
+			<ul id="game-collect">
+				<li>>> <strong>Heart</strong> - 1 life</li>
+				<li>>> <strong>Orange Gem</strong> - Reduces bugs' speed for 2 seconds</li>
+				<li>>> <strong>Green Gem</strong> - 10 points</li>
+				<li>>> <strong>Blue Gem</strong> - 20 points</li>
+			</ul>
+			<h2>Stay Away from these!!!</h2>
+			<ul id="game-avoid">
+				<li>>> <strong>Bugs</strong> - lose a life</li>
+				<li>>> <strong>Water</strong> - lose a life</li>
+				<li>>> <strong>Rock</strong> - lose a life</li>
+			</ul>
+		</div>
+		<button id="game-start">Start</button>
+
+		<!-- After Game begins -->
+		<div id="score"></div>
+		<div id="life"></div>
+		<div id="timer"></div>
+	</header>
+
+	<div id="game-play"></div>
+	<div>
+		<h1 id="game-end"></h1>
+		<button id="try-again" onClick="history.go(0)">Start Again</button>
+	</div>
+
+
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>

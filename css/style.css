@@ -1,3 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* Generic Styles */
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    color: #555;
+}
 body {
     text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+h1{
+	font-size: 60px;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 26px;
+	font-weight:300;
+	margin: 30px auto 20px auto;
+	width: 600px;
+}
+ul{
+	list-style-type: none;
+	text-align: left;
+	width: 500px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+#game-collect {
+	background-color: #B9F586;
+	padding: 10px 10px 10px 10px;
+}
+
+#game-avoid {
+	background-color: #FCA5A5;
+	padding: 10px 10px 10px 10px;
+}
+
+#score,
+#life,
+#timer,
+#try-again,
+#game-play{
+	display: none;
+	margin: 10px 10px;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+#game-rules{
+	margin-bottom:30px;
+}
+
+button {
+	font-size: 25px;
+	font-weight:300;
+	color: #fff;
+	background-color: #33C3FF;
+	padding: 10px 20px;
+	border:0;
+}
+
+button:hover {
+	background-color: #14A7D8;
 }
